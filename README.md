@@ -1,6 +1,7 @@
 # SafeClass
 Submission for ROBOHackIT 2022
-##Project Theme
+
+## Project Theme
 **Betterment of Online Education**
 
 ## Inspiration
@@ -20,20 +21,20 @@ Submission for ROBOHackIT 2022
 - The list of students is presented to the coordinator in a .csv file for ease of viewing.
 - The shots of the students who were caught bunking will be shared with the coordinator in the same "guilty list" in base64 format.
 
-##Additional Features
+## Additional Features
 - On entering the Zoom meeting, the students will be shown a **"Custom Instructions"** pop-up.
 - It instructs the students on the steps to follow if they are stuck on a particular screen.
 - These instructions are meant to guide the students during a class and can be customized as per the request of the coordinator.
 - Once in the Zoom meeting, the students will be needed to attend the class in a Full-Screen mode.
 - The Full-Screen Mode is forced as it prevents the students from getting distracted during their classes.
 
-##Tackling the Workarounds
+## Tackling the Workarounds
 - The students attending the class through our platform will be visible to the coordinator, thereby, preventing student using the default Zoom App.
 - The coordinator can view such students just by clicking on the top left Apps icon of their Zoom Meeting.
 - Even if a student disables JavaScript for the website, they won't be able to attend the meeting.
 - The warn counter is not stored in any Session or Local storage which prevents students from changing it.
 
-##Use of echo3D and Twilio
+## Use of echo3D and Twilio
 - In order to help teachers and students understand the features of the platform, a demo video was needed for each feature.
 - Adding videos for each feature would not only clutter up the home page but also increase the page load times, thereby, worsening the SEO.
 - **Echo3D** helps the user get a demo video just by scanning a 400-500kB QR Code which is presented to the user in a separate pop-up once they opt to see it in the **Features** section of the home page.
@@ -68,7 +69,7 @@ Submission for ROBOHackIT 2022
 - Due to the advent of 60 second videos, the attention span of our generation has drastically reduced.
 - Even though freedom is important, disciplining the students in their early stages is important as well.
 
-##Business Model and Viability of Safe Class
+## Business Model and Viability of Safe Class
 - **Our USP - The only platform which provides this anti-bunk service for online classes and is completely automated instead of relying on human invigilators.**
 - The revenue model for Safe Class makes it a profitable venture as none of the anti-bunk tech is dependent on human labor.
 - The plans of Safe Class are listed on the [link](https://safeclass.ml/services).
