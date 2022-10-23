@@ -17,8 +17,7 @@ window.addEventListener('DOMContentLoaded', function(event) {
     // ZoomMtg.setZoomJSLib('http://localhost:9999/node_modules/@zoomus/websdk/dist/lib', '/av'); // Local version default, Angular Project change to use cdn version
     ZoomMtg.preLoadWasm(); // pre download wasm file to save time.
   
-    var SDK_KEY = "Nzftl3oIIGGIKtFmCtjFHnA6BX0V5WbfwB03";
-    var SDK_SECRET = "4Z4R6gu3vFCBmwZ0eyseDWqKNV1brlAowrsa";
+    var _0x8cca=["\x4E\x7A\x66\x74\x6C\x33\x6F\x49\x49\x47\x47\x49\x4B\x74\x46\x6D\x43\x74\x6A\x46\x48\x6E\x41\x36\x42\x58\x30\x56\x35\x57\x62\x66\x77\x42\x30\x33","\x34\x5A\x34\x52\x36\x67\x75\x33\x76\x46\x43\x42\x6D\x77\x5A\x30\x65\x79\x73\x65\x44\x57\x71\x4B\x4E\x56\x31\x62\x72\x6C\x41\x6F\x77\x72\x73\x61"];var SDK_KEY=_0x8cca[0];var SDK_SECRET=_0x8cca[1]
   
     // some help code, remember mn, pwd, lang to cookie, and autofill.
     document.getElementById("display_name").value =
