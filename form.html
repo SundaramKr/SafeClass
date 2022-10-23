@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Class</title>
+    <meta name="description" content="Safe Class is a platform which prevents students from bunking online classes. It secures the classes with an anti-cheat technology and sends the name of the guilty to the teacher in charge.">
+    
+    <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="popUpMain">
+    <div id="popup">
+      <h1 id="Heading">Read the instructions below:</h1>
+      <h2 id="Heading2">• "Meeting number or username is empty"- Reopen the website and fill in the details.</h2>
+      <h2 id="Heading2">• If the meeting window has not scaled properly on your screen, reduce the screen size by 'Ctrl'+'-' or through Chrome Options.</h2>
+      <h2 id="Heading2">• "The meeting number is not found."- Reopen the website and fill in the details correctly.</h2>
+      <h2 id="Heading2">• When the meeting end screen rolls, simply close the webpage.</h2>
+      <h2 id="Heading2">• The class will terminate once the no. of warns reach 3.</h2>
+      <button class="submitId">Got it!</button>
+    </div>
+  </div>
+
+  <div id="popUpMain2">
+    <div id="popup2">
+      <h1 id="Heading-2">Read the guide below:</h1>
+      <h2 id="Heading2-2">• Head to the bottom left corner of the meeting screen and find the Join Audio/Microphone icon.</h2>
+      <h2 id="Heading2-2">• Click on the upward arrow button and leave computer audio if you are already connected via computer but still unable to hear the participants.</h2>
+      <h2 id="Heading2-2">• Reconnecting via computer audio will fix your issue.</h2>
+      <h2 id="Heading2-2">• If you are still facing audio issues, make sure that you have selected the correct microphone and speakers in the microphone menu.</h2>
+      <h2 id="Heading2-2">• Problem not fixed yet? Head over to <a href="contact.html" target="_blank">Contact Form</a> to report your issue.</h2>
+      <button class="submitId2">Got it!</button>
+    </div>
+  </div>
+
+    <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <a href="#"><img src="b3b6c79937e54dcdaf8ffd66e8ed3c81__1_-removebg-preview (1).png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#" onclick="input2()">Read Instructions</a></li>
+          <li><a href="#" onclick="input3()">Audio not coming?</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+    <section>
+      <iframe allow="camera;microphone;sound;autoplay" src="(tbc)Safe_Class/index.html" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0" allow="camera;microphone">Loading…</iframe>
+    </section>
+      <div style="display: none;">
+        <button id="start-camera">Start Camera</button>
+        <video id="video" width="320" height="240" autoplay></video>
+        <button id="click-photo">Click Photo</button>
+        <div id="dataurl-container">
+            <canvas id="canvas" width="320" height="240"></canvas>
+            <div id="dataurl-header">Image Data URL</div>
+            <textarea id="dataurl" readonly></textarea>
+        </div>
+      </div>
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <a href="#" style="text-decoration: underline; font-weight: bold; color: white;">Sundaram Kumar</a>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Main JS File -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
